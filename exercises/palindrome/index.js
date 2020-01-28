@@ -10,3 +10,15 @@
 function palindrome(str) {}
 
 module.exports = palindrome;
+
+
+// function palindrome(str) {
+//   const newStr = str.split('').reverse().join('');
+//   return str === newStr;
+// };
+
+// function palindrome(str) {
+//   return str.split('').every((char, i, str) => {
+//     return char === str[str.length - i - 1];
+//   });
+// }

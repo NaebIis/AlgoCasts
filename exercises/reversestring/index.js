@@ -24,7 +24,7 @@ module.exports = reverse;
 //   const newStr = str.psplit('').reverse().join('');
 //   return newStr;
 // };
-
+ 
 // function reverse(str) {
 //   let newStr = str;
 //   newStr.split('');
